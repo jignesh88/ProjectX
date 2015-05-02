@@ -660,6 +660,39 @@
 		3342FA941AF4B81200A07DC1 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3342FA931AF4B81200A07DC1 /* star.png */; };
 		3342FA971AF4E9B400A07DC1 /* CoachAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3342FA961AF4E9B400A07DC1 /* CoachAnnotation.m */; };
 		3342FA9D1AF4F5CA00A07DC1 /* CoachLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3342FA9C1AF4F5CA00A07DC1 /* CoachLocation.m */; };
+		334F8C581AF54B42003C742E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F8C571AF54B42003C742E /* logo.png */; };
+		334F8C5A1AF54C46003C742E /* main_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F8C591AF54C46003C742E /* main_background.png */; };
+		334F8C5C1AF54CF5003C742E /* background_second.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F8C5B1AF54CF5003C742E /* background_second.png */; };
+		334F8C5E1AF54D49003C742E /* text_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F8C5D1AF54D49003C742E /* text_back.png */; };
+		334F8C621AF54EC1003C742E /* btn_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F8C5F1AF54EC1003C742E /* btn_facebook.png */; };
+		334F8C631AF54EC1003C742E /* btn_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F8C601AF54EC1003C742E /* btn_login.png */; };
+		334F8C641AF54EC1003C742E /* btn_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F8C611AF54EC1003C742E /* btn_twitter.png */; };
+		3387C74E1AF5298E00069A90 /* background_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3387C7441AF5298E00069A90 /* background_1.png */; };
+		3387C7511AF5298E00069A90 /* button_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3387C7471AF5298E00069A90 /* button_3.png */; };
+		3387C7521AF5298E00069A90 /* button_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3387C7481AF5298E00069A90 /* button_4.png */; };
+		3387C7531AF5298E00069A90 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3387C7491AF5298E00069A90 /* button.png */; };
+		3387C7561AF5298E00069A90 /* rating_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3387C74C1AF5298E00069A90 /* rating_2.png */; };
+		3387C7571AF5298E00069A90 /* trainer_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3387C74D1AF5298E00069A90 /* trainer_1.png */; };
+		33F368461AF52D8900F985E5 /* Exo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368331AF52D8900F985E5 /* Exo-Black.ttf */; };
+		33F368471AF52D8900F985E5 /* Exo-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368341AF52D8900F985E5 /* Exo-BlackItalic.ttf */; };
+		33F368481AF52D8900F985E5 /* Exo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368351AF52D8900F985E5 /* Exo-Bold.ttf */; };
+		33F368491AF52D8900F985E5 /* Exo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368361AF52D8900F985E5 /* Exo-BoldItalic.ttf */; };
+		33F3684A1AF52D8900F985E5 /* Exo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368371AF52D8900F985E5 /* Exo-ExtraBold.ttf */; };
+		33F3684B1AF52D8900F985E5 /* Exo-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368381AF52D8900F985E5 /* Exo-ExtraBoldItalic.ttf */; };
+		33F3684C1AF52D8900F985E5 /* Exo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368391AF52D8900F985E5 /* Exo-ExtraLight.ttf */; };
+		33F3684D1AF52D8900F985E5 /* Exo-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F3683A1AF52D8900F985E5 /* Exo-ExtraLightItalic.ttf */; };
+		33F3684E1AF52D8900F985E5 /* Exo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F3683B1AF52D8900F985E5 /* Exo-Italic.ttf */; };
+		33F3684F1AF52D8900F985E5 /* Exo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F3683C1AF52D8900F985E5 /* Exo-Light.ttf */; };
+		33F368501AF52D8900F985E5 /* Exo-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F3683D1AF52D8900F985E5 /* Exo-LightItalic.ttf */; };
+		33F368511AF52D8900F985E5 /* Exo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F3683E1AF52D8900F985E5 /* Exo-Medium.ttf */; };
+		33F368521AF52D8900F985E5 /* Exo-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F3683F1AF52D8900F985E5 /* Exo-MediumItalic.ttf */; };
+		33F368531AF52D8900F985E5 /* Exo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368401AF52D8900F985E5 /* Exo-Regular.ttf */; };
+		33F368541AF52D8900F985E5 /* Exo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368411AF52D8900F985E5 /* Exo-SemiBold.ttf */; };
+		33F368551AF52D8900F985E5 /* Exo-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368421AF52D8900F985E5 /* Exo-SemiBoldItalic.ttf */; };
+		33F368561AF52D8900F985E5 /* Exo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368431AF52D8900F985E5 /* Exo-Thin.ttf */; };
+		33F368571AF52D8900F985E5 /* Exo-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33F368441AF52D8900F985E5 /* Exo-ThinItalic.ttf */; };
+		33F368581AF52D8900F985E5 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 33F368451AF52D8900F985E5 /* OFL.txt */; };
+		33F3685A1AF5324900F985E5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F368591AF5324900F985E5 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1348,6 +1381,39 @@
 		3342FA961AF4E9B400A07DC1 /* CoachAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoachAnnotation.m; sourceTree = "<group>"; };
 		3342FA9B1AF4F5CA00A07DC1 /* CoachLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoachLocation.h; sourceTree = "<group>"; };
 		3342FA9C1AF4F5CA00A07DC1 /* CoachLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoachLocation.m; sourceTree = "<group>"; };
+		334F8C571AF54B42003C742E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		334F8C591AF54C46003C742E /* main_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_background.png; sourceTree = "<group>"; };
+		334F8C5B1AF54CF5003C742E /* background_second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_second.png; sourceTree = "<group>"; };
+		334F8C5D1AF54D49003C742E /* text_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_back.png; sourceTree = "<group>"; };
+		334F8C5F1AF54EC1003C742E /* btn_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_facebook.png; sourceTree = "<group>"; };
+		334F8C601AF54EC1003C742E /* btn_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_login.png; sourceTree = "<group>"; };
+		334F8C611AF54EC1003C742E /* btn_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_twitter.png; sourceTree = "<group>"; };
+		3387C7441AF5298E00069A90 /* background_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_1.png; sourceTree = "<group>"; };
+		3387C7471AF5298E00069A90 /* button_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_3.png; sourceTree = "<group>"; };
+		3387C7481AF5298E00069A90 /* button_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_4.png; sourceTree = "<group>"; };
+		3387C7491AF5298E00069A90 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		3387C74C1AF5298E00069A90 /* rating_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rating_2.png; sourceTree = "<group>"; };
+		3387C74D1AF5298E00069A90 /* trainer_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trainer_1.png; sourceTree = "<group>"; };
+		33F368331AF52D8900F985E5 /* Exo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Black.ttf"; sourceTree = "<group>"; };
+		33F368341AF52D8900F985E5 /* Exo-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-BlackItalic.ttf"; sourceTree = "<group>"; };
+		33F368351AF52D8900F985E5 /* Exo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Bold.ttf"; sourceTree = "<group>"; };
+		33F368361AF52D8900F985E5 /* Exo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		33F368371AF52D8900F985E5 /* Exo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		33F368381AF52D8900F985E5 /* Exo-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		33F368391AF52D8900F985E5 /* Exo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		33F3683A1AF52D8900F985E5 /* Exo-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		33F3683B1AF52D8900F985E5 /* Exo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Italic.ttf"; sourceTree = "<group>"; };
+		33F3683C1AF52D8900F985E5 /* Exo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Light.ttf"; sourceTree = "<group>"; };
+		33F3683D1AF52D8900F985E5 /* Exo-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-LightItalic.ttf"; sourceTree = "<group>"; };
+		33F3683E1AF52D8900F985E5 /* Exo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Medium.ttf"; sourceTree = "<group>"; };
+		33F3683F1AF52D8900F985E5 /* Exo-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-MediumItalic.ttf"; sourceTree = "<group>"; };
+		33F368401AF52D8900F985E5 /* Exo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Regular.ttf"; sourceTree = "<group>"; };
+		33F368411AF52D8900F985E5 /* Exo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-SemiBold.ttf"; sourceTree = "<group>"; };
+		33F368421AF52D8900F985E5 /* Exo-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		33F368431AF52D8900F985E5 /* Exo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Thin.ttf"; sourceTree = "<group>"; };
+		33F368441AF52D8900F985E5 /* Exo-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ThinItalic.ttf"; sourceTree = "<group>"; };
+		33F368451AF52D8900F985E5 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		33F368591AF5324900F985E5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1391,10 +1457,9 @@
 		3342F5431AF47DCA00A07DC1 /* ProjectX */ = {
 			isa = PBXGroup;
 			children = (
+				33F368311AF52D7600F985E5 /* Font */,
+				3387C7431AF5295C00069A90 /* images */,
 				3342FA831AF4A3F700A07DC1 /* ViewModel */,
-				3342FA561AF4A1B100A07DC1 /* png */,
-				3342F58E1AF4946500A07DC1 /* glyphicons */,
-				3342F58B1AF48AEB00A07DC1 /* Images */,
 				3342F5801AF487CF00A07DC1 /* Model */,
 				3342F57F1AF487B200A07DC1 /* ViewController */,
 				3342F5481AF47DCA00A07DC1 /* AppDelegate.h */,
@@ -2147,6 +2212,64 @@
 			name = ViewModel;
 			sourceTree = "<group>";
 		};
+		3387C7431AF5295C00069A90 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				334F8C5F1AF54EC1003C742E /* btn_facebook.png */,
+				334F8C601AF54EC1003C742E /* btn_login.png */,
+				334F8C611AF54EC1003C742E /* btn_twitter.png */,
+				334F8C5D1AF54D49003C742E /* text_back.png */,
+				334F8C5B1AF54CF5003C742E /* background_second.png */,
+				334F8C591AF54C46003C742E /* main_background.png */,
+				334F8C571AF54B42003C742E /* logo.png */,
+				33F368591AF5324900F985E5 /* icon.png */,
+				3387C7441AF5298E00069A90 /* background_1.png */,
+				3387C7471AF5298E00069A90 /* button_3.png */,
+				3387C7481AF5298E00069A90 /* button_4.png */,
+				3387C7491AF5298E00069A90 /* button.png */,
+				3387C74C1AF5298E00069A90 /* rating_2.png */,
+				3387C74D1AF5298E00069A90 /* trainer_1.png */,
+				3342FA561AF4A1B100A07DC1 /* png */,
+				3342F58E1AF4946500A07DC1 /* glyphicons */,
+				3342F58B1AF48AEB00A07DC1 /* Images */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		33F368311AF52D7600F985E5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				33F368321AF52D8900F985E5 /* Exo */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		33F368321AF52D8900F985E5 /* Exo */ = {
+			isa = PBXGroup;
+			children = (
+				33F368331AF52D8900F985E5 /* Exo-Black.ttf */,
+				33F368341AF52D8900F985E5 /* Exo-BlackItalic.ttf */,
+				33F368351AF52D8900F985E5 /* Exo-Bold.ttf */,
+				33F368361AF52D8900F985E5 /* Exo-BoldItalic.ttf */,
+				33F368371AF52D8900F985E5 /* Exo-ExtraBold.ttf */,
+				33F368381AF52D8900F985E5 /* Exo-ExtraBoldItalic.ttf */,
+				33F368391AF52D8900F985E5 /* Exo-ExtraLight.ttf */,
+				33F3683A1AF52D8900F985E5 /* Exo-ExtraLightItalic.ttf */,
+				33F3683B1AF52D8900F985E5 /* Exo-Italic.ttf */,
+				33F3683C1AF52D8900F985E5 /* Exo-Light.ttf */,
+				33F3683D1AF52D8900F985E5 /* Exo-LightItalic.ttf */,
+				33F3683E1AF52D8900F985E5 /* Exo-Medium.ttf */,
+				33F3683F1AF52D8900F985E5 /* Exo-MediumItalic.ttf */,
+				33F368401AF52D8900F985E5 /* Exo-Regular.ttf */,
+				33F368411AF52D8900F985E5 /* Exo-SemiBold.ttf */,
+				33F368421AF52D8900F985E5 /* Exo-SemiBoldItalic.ttf */,
+				33F368431AF52D8900F985E5 /* Exo-Thin.ttf */,
+				33F368441AF52D8900F985E5 /* Exo-ThinItalic.ttf */,
+				33F368451AF52D8900F985E5 /* OFL.txt */,
+			);
+			path = Exo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2259,6 +2382,7 @@
 				3342F91B1AF4946800A07DC1 /* glyphicons-367-security-camera.png in Resources */,
 				3342F8A31AF4946800A07DC1 /* glyphicons-259-qrcode.png in Resources */,
 				3342F9601AF4946800A07DC1 /* glyphicons-429-git-compare.png in Resources */,
+				3387C7561AF5298E00069A90 /* rating_2.png in Resources */,
 				3342F9ED1AF4946800A07DC1 /* glyphicons-556-queen.png in Resources */,
 				3342F8931AF4946800A07DC1 /* glyphicons-244-anchor.png in Resources */,
 				3342F5501AF47DCA00A07DC1 /* Main.storyboard in Resources */,
@@ -2273,6 +2397,7 @@
 				3342FA781AF4A1B100A07DC1 /* fastrunning.png in Resources */,
 				3342F9C91AF4946800A07DC1 /* glyphicons-523-user-flag.png in Resources */,
 				3342F9001AF4946800A07DC1 /* glyphicons-342-briefcase.png in Resources */,
+				33F368461AF52D8900F985E5 /* Exo-Black.ttf in Resources */,
 				3342F8481AF4946800A07DC1 /* glyphicons-177-forward.png in Resources */,
 				3342F9081AF4946800A07DC1 /* glyphicons-35-old-man.png in Resources */,
 				3342FA331AF4946800A07DC1 /* glyphicons-7-user-add.png in Resources */,
@@ -2321,6 +2446,8 @@
 				3342FA4A1AF4946800A07DC1 /* glyphicons-90-building.png in Resources */,
 				3342F87E1AF4946800A07DC1 /* glyphicons-225-chevron-left.png in Resources */,
 				3342F8531AF4946800A07DC1 /* glyphicons-187-move.png in Resources */,
+				33F368471AF52D8900F985E5 /* Exo-BlackItalic.ttf in Resources */,
+				33F3685A1AF5324900F985E5 /* icon.png in Resources */,
 				3342F8EA1AF4946800A07DC1 /* glyphicons-322-gamepad.png in Resources */,
 				3342F8DD1AF4946800A07DC1 /* glyphicons-310-comments.png in Resources */,
 				3342F89C1AF4946800A07DC1 /* glyphicons-252-scuba-diving.png in Resources */,
@@ -2348,6 +2475,7 @@
 				3342F8091AF4946800A07DC1 /* glyphicons-12-camera.png in Resources */,
 				3342FA741AF4A1B100A07DC1 /* pingpong.png in Resources */,
 				3342FA721AF4A1B100A07DC1 /* yoga.png in Resources */,
+				33F368541AF52D8900F985E5 /* Exo-SemiBold.ttf in Resources */,
 				3342F9561AF4946800A07DC1 /* glyphicons-42-charts.png in Resources */,
 				3342F8691AF4946800A07DC1 /* glyphicons-206-electricity.png in Resources */,
 				3342F8BE1AF4946800A07DC1 /* glyphicons-283-cardio.png in Resources */,
@@ -2375,6 +2503,8 @@
 				3342F8681AF4946800A07DC1 /* glyphicons-205-unlock.png in Resources */,
 				3342F8511AF4946800A07DC1 /* glyphicons-185-volume-up.png in Resources */,
 				3342F9D01AF4946800A07DC1 /* glyphicons-53-eye-close.png in Resources */,
+				33F368521AF52D8900F985E5 /* Exo-MediumItalic.ttf in Resources */,
+				33F368501AF52D8900F985E5 /* Exo-LightItalic.ttf in Resources */,
 				3342F8CB1AF4946800A07DC1 /* glyphicons-295-coffee-cup.png in Resources */,
 				3342F8F91AF4946800A07DC1 /* glyphicons-336-pushpin.png in Resources */,
 				3342FA6E1AF4A1B100A07DC1 /* carracing.png in Resources */,
@@ -2386,12 +2516,14 @@
 				3342F9D91AF4946800A07DC1 /* glyphicons-538-ice-lolly-tasted.png in Resources */,
 				3342F9701AF4946800A07DC1 /* glyphicons-443-earphone.png in Resources */,
 				3342F9971AF4946800A07DC1 /* glyphicons-479-blackboard.png in Resources */,
+				33F368571AF52D8900F985E5 /* Exo-ThinItalic.ttf in Resources */,
 				3342F8981AF4946800A07DC1 /* glyphicons-249-asterisk.png in Resources */,
 				3342F9AC1AF4946800A07DC1 /* glyphicons-498-glasses.png in Resources */,
 				3342FA751AF4A1B100A07DC1 /* cycling.png in Resources */,
 				3342F9381AF4946800A07DC1 /* glyphicons-393-subtitles.png in Resources */,
 				3342F9411AF4946800A07DC1 /* glyphicons-400-registration-mark.png in Resources */,
 				3342F9611AF4946800A07DC1 /* glyphicons-43-pie-chart.png in Resources */,
+				33F368551AF52D8900F985E5 /* Exo-SemiBoldItalic.ttf in Resources */,
 				3342F9A41AF4946800A07DC1 /* glyphicons-490-handshake.png in Resources */,
 				3342F7F91AF4946800A07DC1 /* glyphicons-105-text-strike.png in Resources */,
 				3342F88C1AF4946800A07DC1 /* glyphicons-238-zoom-out.png in Resources */,
@@ -2406,6 +2538,7 @@
 				3342F95E1AF4946800A07DC1 /* glyphicons-427-git-merge.png in Resources */,
 				3342F8F31AF4946800A07DC1 /* glyphicons-330-soccer-ball.png in Resources */,
 				3342F8011AF4946800A07DC1 /* glyphicons-112-align-center.png in Resources */,
+				33F368481AF52D8900F985E5 /* Exo-Bold.ttf in Resources */,
 				3342F9851AF4946800A07DC1 /* glyphicons-462-saw-blade.png in Resources */,
 				3342F9761AF4946800A07DC1 /* glyphicons-449-translate.png in Resources */,
 				3342F9341AF4946800A07DC1 /* glyphicons-39-airplane.png in Resources */,
@@ -2438,9 +2571,11 @@
 				3342F9121AF4946800A07DC1 /* glyphicons-359-file-import.png in Resources */,
 				3342F8F51AF4946800A07DC1 /* glyphicons-332-dashboard.png in Resources */,
 				3342FA551AF494DB00A07DC1 /* avatar.png in Resources */,
+				33F368491AF52D8900F985E5 /* Exo-BoldItalic.ttf in Resources */,
 				3342F8F61AF4946800A07DC1 /* glyphicons-333-certificate.png in Resources */,
 				3342F9EC1AF4946800A07DC1 /* glyphicons-555-king.png in Resources */,
 				3342F94F1AF4946800A07DC1 /* glyphicons-413-cloud-plus.png in Resources */,
+				334F8C581AF54B42003C742E /* logo.png in Resources */,
 				3342F9321AF4946800A07DC1 /* glyphicons-388-log-out.png in Resources */,
 				3342F9A81AF4946800A07DC1 /* glyphicons-494-atv-vehicle.png in Resources */,
 				3342F8221AF4946800A07DC1 /* glyphicons-142-database-plus.png in Resources */,
@@ -2452,6 +2587,7 @@
 				3342F85A1AF4946800A07DC1 /* glyphicons-193-circle-remove.png in Resources */,
 				3342F88D1AF4946800A07DC1 /* glyphicons-239-pin.png in Resources */,
 				3342F8AD1AF4946800A07DC1 /* glyphicons-268-credit-card.png in Resources */,
+				33F3684D1AF52D8900F985E5 /* Exo-ExtraLightItalic.ttf in Resources */,
 				3342F9151AF4946800A07DC1 /* glyphicons-361-bug.png in Resources */,
 				3342F8EC1AF4946800A07DC1 /* glyphicons-324-calculator.png in Resources */,
 				3342F8791AF4946800A07DC1 /* glyphicons-220-circle-arrow-down.png in Resources */,
@@ -2502,6 +2638,7 @@
 				3342F8CF1AF4946800A07DC1 /* glyphicons-299-hospital.png in Resources */,
 				3342F9DC1AF4946800A07DC1 /* glyphicons-540-cart-tick.png in Resources */,
 				3342F9101AF4946800A07DC1 /* glyphicons-357-dumbbell.png in Resources */,
+				33F3684A1AF52D8900F985E5 /* Exo-ExtraBold.ttf in Resources */,
 				3342F8B51AF4946800A07DC1 /* glyphicons-275-beer.png in Resources */,
 				3342F9991AF4946800A07DC1 /* glyphicons-480-marriage.png in Resources */,
 				3342F82A1AF4946800A07DC1 /* glyphicons-15-train.png in Resources */,
@@ -2537,6 +2674,7 @@
 				3342F8AE1AF4946800A07DC1 /* glyphicons-269-keyboard-wireless.png in Resources */,
 				3342F8071AF4946800A07DC1 /* glyphicons-118-embed.png in Resources */,
 				3342F87A1AF4946800A07DC1 /* glyphicons-221-play-button.png in Resources */,
+				334F8C5E1AF54D49003C742E /* text_back.png in Resources */,
 				3342F9531AF4946800A07DC1 /* glyphicons-417-disk-saved.png in Resources */,
 				3342F9A01AF4946800A07DC1 /* glyphicons-487-fit-frame-to-image.png in Resources */,
 				3342F82B1AF4946800A07DC1 /* glyphicons-150-folder-new.png in Resources */,
@@ -2549,6 +2687,7 @@
 				3342F9F61AF4946800A07DC1 /* glyphicons-564-person-wheelchair.png in Resources */,
 				3342F9CB1AF4946800A07DC1 /* glyphicons-525-user-alert.png in Resources */,
 				3342F8921AF4946800A07DC1 /* glyphicons-243-google-maps.png in Resources */,
+				33F368511AF52D8900F985E5 /* Exo-Medium.ttf in Resources */,
 				3342FA1A1AF4946800A07DC1 /* glyphicons-597-activity.png in Resources */,
 				3342FA291AF4946800A07DC1 /* glyphicons-61-compass.png in Resources */,
 				3342F80A1AF4946800A07DC1 /* glyphicons-120-table.png in Resources */,
@@ -2602,6 +2741,7 @@
 				3342F8BF1AF4946800A07DC1 /* glyphicons-284-t-shirt.png in Resources */,
 				3342FA2E1AF4946800A07DC1 /* glyphicons-65-lightbulb.png in Resources */,
 				3342F7F31AF4946800A07DC1 /* glyphicons-10-magic.png in Resources */,
+				33F368561AF52D8900F985E5 /* Exo-Thin.ttf in Resources */,
 				3342F9181AF4946800A07DC1 /* glyphicons-364-cloud-download.png in Resources */,
 				3342F9E61AF4946800A07DC1 /* glyphicons-55-clock.png in Resources */,
 				3342F9FC1AF4946800A07DC1 /* glyphicons-57-projector.png in Resources */,
@@ -2614,6 +2754,7 @@
 				3342FA491AF4946800A07DC1 /* glyphicons-9-film.png in Resources */,
 				3342F8741AF4946800A07DC1 /* glyphicons-216-resize-full.png in Resources */,
 				3342F8231AF4946800A07DC1 /* glyphicons-143-database-minus.png in Resources */,
+				334F8C641AF54EC1003C742E /* btn_twitter.png in Resources */,
 				3342F94D1AF4946800A07DC1 /* glyphicons-411-compressed.png in Resources */,
 				3342F8851AF4946800A07DC1 /* glyphicons-231-moon.png in Resources */,
 				3342FA471AF4946800A07DC1 /* glyphicons-88-log-book.png in Resources */,
@@ -2649,6 +2790,7 @@
 				3342F8841AF4946800A07DC1 /* glyphicons-230-retweet-2.png in Resources */,
 				3342F9D41AF4946800A07DC1 /* glyphicons-533-stop-sign.png in Resources */,
 				3342F8C01AF4946800A07DC1 /* glyphicons-285-pants.png in Resources */,
+				334F8C5C1AF54CF5003C742E /* background_second.png in Resources */,
 				3342FA731AF4A1B100A07DC1 /* Mountainbiking.png in Resources */,
 				3342F8101AF4946800A07DC1 /* glyphicons-126-message-minus.png in Resources */,
 				3342F8961AF4946800A07DC1 /* glyphicons-247-male.png in Resources */,
@@ -2678,6 +2820,7 @@
 				3342F8381AF4946800A07DC1 /* glyphicons-162-macbook.png in Resources */,
 				3342F8AA1AF4946800A07DC1 /* glyphicons-265-vcard.png in Resources */,
 				3342F8E71AF4946800A07DC1 /* glyphicons-32-bus.png in Resources */,
+				33F368581AF52D8900F985E5 /* OFL.txt in Resources */,
 				3342F9E81AF4946800A07DC1 /* glyphicons-551-erase.png in Resources */,
 				3342F8B81AF4946800A07DC1 /* glyphicons-278-pizza.png in Resources */,
 				3342F8E91AF4946800A07DC1 /* glyphicons-321-filter.png in Resources */,
@@ -2695,7 +2838,9 @@
 				3342F8ED1AF4946800A07DC1 /* glyphicons-325-tie.png in Resources */,
 				3342F9D11AF4946800A07DC1 /* glyphicons-530-list-alt.png in Resources */,
 				3342F9C61AF4946800A07DC1 /* glyphicons-520-currency-conversion.png in Resources */,
+				33F3684B1AF52D8900F985E5 /* Exo-ExtraBoldItalic.ttf in Resources */,
 				3342F9DB1AF4946800A07DC1 /* glyphicons-54-alarm.png in Resources */,
+				33F3684F1AF52D8900F985E5 /* Exo-Light.ttf in Resources */,
 				3342F7FC1AF4946800A07DC1 /* glyphicons-108-text-resize.png in Resources */,
 				3342FA3A1AF4946800A07DC1 /* glyphicons-76-stroller.png in Resources */,
 				3342FA231AF4946800A07DC1 /* glyphicons-604-subscript.png in Resources */,
@@ -2731,12 +2876,15 @@
 				3342F8301AF4946800A07DC1 /* glyphicons-155-more-windows.png in Resources */,
 				3342F9F51AF4946800A07DC1 /* glyphicons-563-person-walking.png in Resources */,
 				3342F8DE1AF4946800A07DC1 /* glyphicons-311-flower.png in Resources */,
+				334F8C621AF54EC1003C742E /* btn_facebook.png in Resources */,
 				3342F8BB1AF4946800A07DC1 /* glyphicons-280-tablet.png in Resources */,
 				3342F81F1AF4946800A07DC1 /* glyphicons-14-beach-umbrella.png in Resources */,
 				3342F96D1AF4946800A07DC1 /* glyphicons-440-wrench.png in Resources */,
+				3387C74E1AF5298E00069A90 /* background_1.png in Resources */,
 				3342F7FD1AF4946800A07DC1 /* glyphicons-109-left-indent.png in Resources */,
 				3342F8D11AF4946800A07DC1 /* glyphicons-30-notes-2.png in Resources */,
 				3342FA4E1AF4946800A07DC1 /* glyphicons-94-crop.png in Resources */,
+				334F8C5A1AF54C46003C742E /* main_background.png in Resources */,
 				3342F8941AF4946800A07DC1 /* glyphicons-245-conversation.png in Resources */,
 				3342F8E51AF4946800A07DC1 /* glyphicons-318-tree-deciduous.png in Resources */,
 				3342F8861AF4946800A07DC1 /* glyphicons-232-sun.png in Resources */,
@@ -2751,6 +2899,7 @@
 				3342F8331AF4946800A07DC1 /* glyphicons-158-show-thumbnails-with-lines.png in Resources */,
 				3342F80C1AF4946800A07DC1 /* glyphicons-122-message-empty.png in Resources */,
 				3342F86E1AF4946800A07DC1 /* glyphicons-210-cart-in.png in Resources */,
+				33F368531AF52D8900F985E5 /* Exo-Regular.ttf in Resources */,
 				3342F9B51AF4946800A07DC1 /* glyphicons-505-alert.png in Resources */,
 				3342F90D1AF4946800A07DC1 /* glyphicons-354-nameplate-alt.png in Resources */,
 				3342F8FF1AF4946800A07DC1 /* glyphicons-341-globe.png in Resources */,
@@ -2779,6 +2928,7 @@
 				3342FA051AF4946800A07DC1 /* glyphicons-578-tv.png in Resources */,
 				3342F9FF1AF4946800A07DC1 /* glyphicons-572-uk-rat-pg.png in Resources */,
 				3342F8371AF4946800A07DC1 /* glyphicons-161-imac.png in Resources */,
+				334F8C631AF54EC1003C742E /* btn_login.png in Resources */,
 				3342F96E1AF4946800A07DC1 /* glyphicons-441-folder-closed.png in Resources */,
 				3342FA3B1AF4946800A07DC1 /* glyphicons-77-headphones.png in Resources */,
 				3342FA6F1AF4A1B100A07DC1 /* excercise.png in Resources */,
@@ -2787,14 +2937,17 @@
 				3342F9E41AF4946800A07DC1 /* glyphicons-548-bitcoin.png in Resources */,
 				3342F97E1AF4946800A07DC1 /* glyphicons-456-kiosk-light.png in Resources */,
 				3342F8A71AF4946800A07DC1 /* glyphicons-262-buoy.png in Resources */,
+				3387C7521AF5298E00069A90 /* button_4.png in Resources */,
 				3342F8121AF4946800A07DC1 /* glyphicons-128-message-flag.png in Resources */,
 				3342FA211AF4946800A07DC1 /* glyphicons-602-chevron-down.png in Resources */,
+				3387C7531AF5298E00069A90 /* button.png in Resources */,
 				3342F9691AF4946800A07DC1 /* glyphicons-437-golf.png in Resources */,
 				3342FA111AF4946800A07DC1 /* glyphicons-589-remote-control-tv.png in Resources */,
 				3342F81B1AF4946800A07DC1 /* glyphicons-136-inbox-out.png in Resources */,
 				3342F8C71AF4946800A07DC1 /* glyphicons-291-skull.png in Resources */,
 				3342F8C91AF4946800A07DC1 /* glyphicons-293-tea-kettle.png in Resources */,
 				3342F9E31AF4946800A07DC1 /* glyphicons-547-quote.png in Resources */,
+				33F3684E1AF52D8900F985E5 /* Exo-Italic.ttf in Resources */,
 				3342F5521AF47DCA00A07DC1 /* Images.xcassets in Resources */,
 				3342F8771AF4946800A07DC1 /* glyphicons-219-circle-arrow-top.png in Resources */,
 				3342FA2A1AF4946800A07DC1 /* glyphicons-610-tractor.png in Resources */,
@@ -2814,6 +2967,7 @@
 				3342F9861AF4946800A07DC1 /* glyphicons-463-basketball.png in Resources */,
 				3342F88F1AF4946800A07DC1 /* glyphicons-240-albums.png in Resources */,
 				3342F9011AF4946800A07DC1 /* glyphicons-343-hdd.png in Resources */,
+				3387C7511AF5298E00069A90 /* button_3.png in Resources */,
 				3342F86A1AF4946800A07DC1 /* glyphicons-207-ok-2.png in Resources */,
 				3342F9C71AF4946800A07DC1 /* glyphicons-521-user-ban.png in Resources */,
 				3342F8041AF4946800A07DC1 /* glyphicons-115-list.png in Resources */,
@@ -2842,6 +2996,7 @@
 				3342F9551AF4946800A07DC1 /* glyphicons-419-disk-import.png in Resources */,
 				3342F8C31AF4946800A07DC1 /* glyphicons-288-leather.png in Resources */,
 				3342FA321AF4946800A07DC1 /* glyphicons-69-ruler.png in Resources */,
+				33F3684C1AF52D8900F985E5 /* Exo-ExtraLight.ttf in Resources */,
 				3342F9641AF4946800A07DC1 /* glyphicons-432-shoe-steps.png in Resources */,
 				3342F8F01AF4946800A07DC1 /* glyphicons-328-sampler.png in Resources */,
 				3342F85D1AF4946800A07DC1 /* glyphicons-196-circle-info.png in Resources */,
@@ -2858,6 +3013,7 @@
 				3342F8A21AF4946800A07DC1 /* glyphicons-258-sheriffs-star.png in Resources */,
 				3342F8DF1AF4946800A07DC1 /* glyphicons-312-baseball.png in Resources */,
 				3342F9C11AF4946800A07DC1 /* glyphicons-516-shower.png in Resources */,
+				3387C7571AF5298E00069A90 /* trainer_1.png in Resources */,
 				3342F8C21AF4946800A07DC1 /* glyphicons-287-fabric.png in Resources */,
 				3342F9491AF4946800A07DC1 /* glyphicons-408-sort-by-order-alt.png in Resources */,
 				3342F9CA1AF4946800A07DC1 /* glyphicons-524-user-asterisk.png in Resources */,
@@ -3024,8 +3180,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProjectX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -3034,8 +3192,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProjectX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

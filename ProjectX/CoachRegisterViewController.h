@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CoachRegisterViewController : UIViewController 
+@interface CoachRegisterViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txtEmail;
+@property (weak, nonatomic) IBOutlet UITextField *txtPwd;
 
 @end

@@ -10,4 +10,17 @@
 
 @implementation CoachRegisterViewController
 
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.txtEmail.delegate = self;
+    self.txtPwd.delegate = self;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [self.txtEmail resignFirstResponder];
+    [self.txtPwd resignFirstResponder];
+    return NO;
+}
+
 @end

@@ -18,12 +18,12 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated {
+    
     MKCoordinateSpan span = MKCoordinateSpanMake(0.03f, 0.03f);
     CLLocationCoordinate2D coordinate = {-33.8791406,151.1976682};
     MKCoordinateRegion region = {coordinate, span};
     
     MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
-    //1BC8c2
     NSMutableArray *locations = [[NSMutableArray alloc]initWithCapacity:20];
     
     CLLocationCoordinate2D annotationCoord;
@@ -33,12 +33,11 @@
         
     MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
     annotationPoint.coordinate = annotationCoord;
+
     annotationPoint.title = [[NSString alloc]initWithFormat:@" Trainer %d", 1];
     annotationPoint.subtitle = [self getTrainerExpertise:1];
     
     [locations addObject:annotationPoint];
-    
-
     
     [_mapView addAnnotation: annotationPoint];
     
@@ -85,57 +84,8 @@
 }
 
 
--(void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
-    id <MKAnnotation> annotation = [view annotation];
-    if ([annotation isKindOfClass:[MKPointAnnotation class]])
-    {
-        NSLog(@"Clicked Pizza Shop");
-    }
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Disclosure Pressed" message:@"Click Cancel to Go Back" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
-    [alertView show];
-}
-
-
-- (IBAction)zoomToCurrentLocation:(UIBarButtonItem *)sender {
-    float spanX = 0.00725;
-    float spanY = 0.00725;
-    MKCoordinateRegion region;
-    region.center.latitude = self.mapView.userLocation.coordinate.latitude;
-    region.center.longitude = self.mapView.userLocation.coordinate.longitude;
-    region.span.latitudeDelta = spanX;
-    region.span.longitudeDelta = spanY;
-    [self.mapView setRegion:region animated:YES];
-}
-
-- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
-{
-    // If it's the user location, just return nil.
-    if ([annotation isKindOfClass:[MKUserLocation class]])
-        return nil;
-    
-    // Handle any custom annotations.
-    if ([annotation isKindOfClass:[MKPointAnnotation class]])
-    {
-        // Try to dequeue an existing pin view first.
-        MKAnnotationView *pinView = (MKAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
-        if (!pinView)
-        {
-            // If an existing pin view was not available, create one.
-            pinView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView"];
-            //pinView.animatesDrop = YES;
-            pinView.canShowCallout = YES;
-            pinView.image = [UIImage imageNamed:@"Football.png"];
-            pinView.calloutOffset = CGPointMake(0, 32);
-        } else {
-            pinView.annotation = annotation;
-        }
-        return pinView;
-    }
-    return nil;
-}
-
 - (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view {
-    
+    [self performSegueWithIdentifier: @"showTrainer" sender: self];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

@@ -10,4 +10,9 @@
 
 @implementation MainViewController
 
+-(void)viewdidload {
+   
+}
+
+
 @end
