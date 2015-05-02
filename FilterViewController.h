@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FilterCollection.h"
 
-@interface FilterViewController : UIViewController
+@interface FilterViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UICollectionView *filterCollection;
 
 @end

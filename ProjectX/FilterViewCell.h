@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FilterViewCell : UICollectionViewCell
+@interface FilterViewCell : UICollectionViewCell {
+
+}
 @property (weak, nonatomic) IBOutlet UIImageView *FilterImage;
 @property (weak, nonatomic) IBOutlet UILabel *FilterLabel;
-
+@property (nonatomic, assign) BOOL isSelected;
 @end
