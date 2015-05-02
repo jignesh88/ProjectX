@@ -521,11 +521,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fG6-Qn-Uf7">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fG6-Qn-Uf7">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
-                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="51v-0N-OyA" id="2b5-no-07u"/>
+                                </connections>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -563,7 +563,7 @@
                     </view>
                     <connections>
                         <outlet property="mapView" destination="fG6-Qn-Uf7" id="GY1-fY-uvK"/>
-                        <segue destination="ura-RT-r8V" kind="show" id="kFY-ua-3LJ"/>
+                        <segue destination="ura-RT-r8V" kind="show" identifier="showTrainer" id="kFY-ua-3LJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6b0-EL-Wog" userLabel="First Responder" sceneMemberID="firstResponder"/>

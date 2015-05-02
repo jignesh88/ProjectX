@@ -43,7 +43,7 @@ NSString *CellID = @"CellID";
         cell.isSelected = YES;
     }
     else {
-        cell.backgroundColor = [UIColor redColor];
+        cell.backgroundColor = [UIColor whiteColor];
         cell.isSelected = NO;
     }
 }
