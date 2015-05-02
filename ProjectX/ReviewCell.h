@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ReviewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *imgReview;
+@property (weak, nonatomic) IBOutlet UIImageView *imgTrainee;
+@property (weak, nonatomic) IBOutlet UILabel *lblTitle;
+@property (weak, nonatomic) IBOutlet UILabel *lblReview;
 
 @end

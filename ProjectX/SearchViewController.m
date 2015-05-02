@@ -24,7 +24,9 @@
     MKCoordinateRegion region = {coordinate, span};
     
     MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
+    
     NSMutableArray *locations = [[NSMutableArray alloc]initWithCapacity:20];
+    
     
     CLLocationCoordinate2D annotationCoord;
     annotationCoord.latitude = -33.8791406;
@@ -39,7 +41,33 @@
     
     [locations addObject:annotationPoint];
     
-    [_mapView addAnnotation: annotationPoint];
+    //-33.8750943,151.2288355
+    CLLocationCoordinate2D annotationCoord1;
+    annotationCoord1.latitude = -33.8750943;
+    annotationCoord1.longitude = 151.2288355;
+    MKPointAnnotation *annotationPoint1 = [[MKPointAnnotation alloc] init];
+    annotationPoint1.coordinate = annotationCoord1;
+    
+    annotationPoint1.title = [[NSString alloc]initWithFormat:@" Trainer %d", 2];
+    annotationPoint1.subtitle = [self getTrainerExpertise:3];
+    
+    [locations addObject:annotationPoint1];
+    
+    //-33.8884191,151.2052535
+    CLLocationCoordinate2D annotationCoord2;
+    annotationCoord2.latitude = -33.8884191;
+    annotationCoord2.longitude = 151.2052535;
+    
+    MKPointAnnotation *annotationPoint2 = [[MKPointAnnotation alloc] init];
+    annotationPoint2.coordinate = annotationCoord2;
+    
+    annotationPoint2.title = [[NSString alloc]initWithFormat:@" Trainer %d", 3];
+    annotationPoint2.subtitle = [self getTrainerExpertise:4];
+    
+    [locations addObject:annotationPoint2];
+    
+    [_mapView addAnnotations: locations];
+
     
     [self.mapView setRegion:regionThatFits animated:YES];
 }

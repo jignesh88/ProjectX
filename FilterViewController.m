@@ -39,7 +39,7 @@ NSString *CellID = @"CellID";
     FilterViewCell *cell = (FilterViewCell*) [collectionView cellForItemAtIndexPath:indexPath];
     
     if(cell.isSelected== NO) {
-        cell.backgroundColor = [UIColor redColor];
+        cell.backgroundColor = [UIColor colorWithRed:0.314 green:0.89 blue:0.761 alpha:1] /*#50e3c2*/;
         cell.isSelected = YES;
     }
     else {

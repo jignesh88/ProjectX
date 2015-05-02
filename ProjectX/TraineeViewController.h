@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TraineeViewController : UIViewController
+@interface TraineeViewController : UIViewController 
 
 @end

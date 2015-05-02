@@ -7,7 +7,17 @@
 //
 
 #import "TraineeViewController.h"
+#import "ReviewCell.h"
+
+
 
 @implementation TraineeViewController
+
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+}
+
+
 
 @end

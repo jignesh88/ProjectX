@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TraineeProfileViewController : UIViewController
+@interface TraineeProfileViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
